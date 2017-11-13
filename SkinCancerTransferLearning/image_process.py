@@ -25,7 +25,6 @@ def resize(infile):
 
             os.remove(infile)
 
-for filename in glob.iglob \
-    ("/home/sam/workspace/pycharm/Transfer-Learning-for-Animal-Classification-in-Tensorflow-master/TrainingImages/mole/*jpg"):
+for filename in glob.iglob("TrainingImage/*/*jpg"):
     resize(filename)
 

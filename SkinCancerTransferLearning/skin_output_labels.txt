@@ -1,2 +1,2 @@
-mole
-cancer
+benign
+malignant
